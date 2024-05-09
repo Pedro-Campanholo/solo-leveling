@@ -1,0 +1,146 @@
+
+    /* --font-titulos: "Sedan", serif;
+    --font-text:  */
+
+html {
+    background: linear-gradient(135deg, rgba(0,0,0,1) 20%,rgba(135,28,147,1) 37%,rgba(103,25,132,1) 50%,rgba(103,25,132,1) 55%,rgba(135,28,147,1) 71%,rgba(0,0,0,1) 79%);
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    scroll-behavior: smooth;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho .titulo {
+    text-shadow: 5px 10px 3px purple;
+    color: #fff;
+    padding: 20px;
+    font-size: 50px;
+    font-family: "Sedan", serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.cabecalho .menu ul {
+    display: flex;
+    padding: 20px;
+}
+
+.cabecalho a {
+    font-family: "Sedan SC", serif;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.cabecalho a:hover {
+    background-color: #400f54;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 22px;
+}
+
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.conteudo .rostos {
+    display: flex;
+}
+
+.conteudo .rostos img {
+    border-radius: 50%;
+    padding: 5px;  
+
+}
+
+.conteudo .rostos img:hover {
+   width: 200px;
+   height: 200px;
+   background-color: #fff;
+   transition: 0.3s;
+}
+
+.fundo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre {
+    
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+.sobre h2 {
+    font-family: "Sedan", serif;
+    font-size: 45px;
+    font-style: italic;
+    color: #fff;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+
+.sobre p {
+    font-family:  "Sedan SC", serif;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+    width: 60%;
+}
+
+.historia {
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+.historia h2 {
+    font-family: "Sedan", serif;
+    font-size: 45px;
+    font-style: italic;
+    color: #fff;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+
+.historia p {
+    font-family:  "Sedan SC", serif;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+    width: 60%;
+}
+
+.personagem-hist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.personagem img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1280px;
+    height: 720px;
+}
+
+
