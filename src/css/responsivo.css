@@ -1,0 +1,79 @@
+@media (max-width: 800px) {
+   html {
+    background: linear-gradient(135deg, rgba(0,0,0,1) 20%,rgba(135,28,147,1) 37%,rgba(103,25,132,1) 50%,rgba(103,25,132,1) 55%,rgba(135,28,147,1) 71%,rgba(0,0,0,1) 79%);
+    background-repeat: no-repeat;
+    scroll-behavior: smooth;
+   }
+
+   .cabecalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+
+   .cabecalho .menu ul {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+   }
+
+   .cabecalho a {
+    font-size: 15px;
+   }
+
+   .cabecalho a:hover {
+    padding: 5px;
+    font-size: 18px;
+   }
+
+    .conteudo {
+        margin-top: 50px;
+    }
+
+    .conteudo .rostos img {
+        border-radius: 50%;
+        padding: 5px;  
+        width: 98px;
+    }
+    
+    .conteudo .rostos img:hover {
+       width: 100px;
+       height: 100px;
+       background-color: #fff;
+       transition: 0.3s;
+    }
+
+    .fundo img {
+        width: 100%;
+        height: inherit;
+    }
+
+    .sobre h2 {
+        font-size: 30px;
+    }
+
+    .sobre p {
+        font-size: 18px;
+        line-height: 25px;
+        width: 90%;
+        padding-bottom: 100px;
+    }
+
+    .historia h2 {
+        font-size: 30px;
+        margin-top: 100px;
+    }
+
+    .historia p {
+        font-size: 18px;
+        line-height: 25px;
+        width: 90%;
+    }
+
+    .personagem img {
+        width: 100%;
+        height: inherit;
+    }
+}
